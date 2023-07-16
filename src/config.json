@@ -1,0 +1,5 @@
+{
+    "SAMPLE DATA": {
+        "GET_ITEMS" : "https://api.example.com/items"
+    }
+}
