@@ -134,6 +134,15 @@
     fill: rgb(105, 103, 103);
   }
 
+  .card-container-border {
+    border: 2px dashed #888;
+  }
+
+  .card-container-border-solid {
+    border: 2px solid #125699;
+    margin-top: 2rem;
+  }
+
   .card.highlight-card {
     background-color: #1976d2;
     color: white;
@@ -423,6 +432,16 @@
       <span>Build for Production</span>
     </button>
   </div>
+
+    <!-- Parent Component -->
+    <div class="card-container-border">
+      <app-parent></app-parent>
+    </div>
+
+    <!-- Child Component -->
+    <div class="card-container-border-solid">
+      <app-child></app-child>
+    </div>
 
   <!-- Terminal -->
   <div class="terminal" [ngSwitch]="selection.value">
